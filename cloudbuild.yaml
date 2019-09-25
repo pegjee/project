@@ -1,0 +1,5 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'gcr.io/qwiklabs-gcp-2d9391fc17e2026c/quickstart-image','.']
+images:
+- 'gcr.io/qwiklabs-gcp-2d9391fc17e2026c/quickstart-image'
