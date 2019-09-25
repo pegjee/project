@@ -1,3 +1,3 @@
-FROM alpine
-COPY quickstart.sh /
-CMD ["/quickstart.sh"]
+FROM python:3
+ADD hello.py /
+CMD ["python", "./hello.py"]
